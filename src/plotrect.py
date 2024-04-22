@@ -166,9 +166,9 @@ class Plotbox:
 def main(args):
     my_plotbox  = Plotbox()
 #    my_plotbox.Run(args)
-    test_args   = [ 'plotrect.py', 'test_w_value', './tests/test.txt', 1, 2, 3, 4, 5 ]
+#    test_args   = [ 'plotrect.py', 'test_w_value', './tests/test.txt', 1, 2, 3, 4, 5 ]
 #    test_args   = [ 'plotrect.py', 'test_wo_value', './tests/test.txt', 1, 2, 3, 4 ]
-    my_plotbox.Run(test_args)
+#    my_plotbox.Run(test_args)
 
 if __name__ == '__main__':
     main(sys.argv)
